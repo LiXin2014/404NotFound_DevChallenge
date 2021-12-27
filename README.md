@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://keen-shannon-522a3e.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/LiXin2014/404NotFound_DevChallange">
       Solution
     </a>
     <span> | </span>
@@ -27,10 +27,8 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
@@ -51,5 +49,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
 - GitHub [@LiXin2014](https://github.com/LiXin2014/)
