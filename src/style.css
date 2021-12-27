@@ -73,6 +73,7 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #BDBDBD;
+    margin-top: 114px;
 }
 
 footer .created-by {
@@ -111,10 +112,6 @@ footer .author {
 
     main .description {
         font-size: 18px;
-    }
-
-    footer {
-        margin-top: 114px;
     }
 }
 
