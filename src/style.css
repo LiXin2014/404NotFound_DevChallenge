@@ -1,0 +1,124 @@
+/* style for whole page and header */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    color: #333;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.page_container {
+    height: 100%;
+    padding: 30px 60px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;  
+}
+
+/* style for main section */
+main {
+    display: flex;
+    letter-spacing: -0.035em;
+    align-items: center;;
+}
+
+main .main-img {
+    width: 50%;
+    padding: 50px;
+}
+
+main .main-img img {
+    max-width: 100%;
+}
+
+main .main-content {
+    width: 50%;
+}
+
+main .main-header {
+    font-weight: bold;
+    font-size: 64px;
+}
+
+main .description {
+    font-size: 24px;
+    max-width: 60%;
+    margin-top: 36px;
+}
+
+main .back-button {
+    border: none;
+    background-color: #333333;
+    color: white;
+    text-transform: uppercase;  
+    font-weight: bold;
+    font-size: 14px;
+    padding: 24px 43px;
+    margin-top: 64px;
+}
+
+/* style for footer */
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+footer .created-by {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+footer .author {
+    font-weight: bold;
+    color: #BDBDBD;
+}
+
+
+@media screen and (max-width: 768px) {
+    main {
+        display: block;
+    }
+
+    main .main-img { 
+        width: 100%;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    main .main-content { 
+        width: 100%;
+    }
+
+    main .description {
+        max-width: 100%;
+    }
+
+    main .main-header {
+        font-size: 48px;
+    }
+
+    main .description {
+        font-size: 18px;
+    }
+
+    footer {
+        margin-top: 114px;
+    }
+}
+
+
+/* NOTES:
+   1. use "max-width: 100%" to make the image fit into a smaller container
+*/
